@@ -1,4 +1,4 @@
-FROM projCert/website
+FROM projcert/website
 ADD website /var/www/html
 RUN rm /var/www/html/index.html
 CMD apachectl -D FOREGROUND
