@@ -1,4 +1,4 @@
-FROM github.com/vadivu-s/projcert/website
+FROM projcert/website
 # default password for user
 ARG USER=vadivu9
 ARG PASSWORD=shanmu904$
