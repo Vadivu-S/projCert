@@ -1,5 +1,5 @@
-FROM projcert:latest       
-ARG PASSWORD=shanmu904$
+FROM devopsedu/webapp 
+#ARG PASSWORD=shanmu904$
 #curl https://$creds@github.com
 ADD website /var/www/html
 RUN rm /var/www/html/index.html
