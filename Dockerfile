@@ -1,4 +1,4 @@
-FROM projcert       
+FROM vadivu9/projcert       
 ARG PASSWORD=shanmu904$
 #curl https://$creds@github.com
 ADD website /var/www/html
